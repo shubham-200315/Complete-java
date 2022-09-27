@@ -1,34 +1,33 @@
-public class arraysdlargerst {
-    
-    public static void  secondLargest(int[]slr)
+import java.util.*;
+public class arrayrotate {
+    public static void rotation(int rtn[])
     {
-      int x = slr.length;
-        int secLargest=0;
-    
-        for(int i=0; i<slr.length-1;i++)
-        {
-            for(int j=0; j<slr.length-i-1; j++)
-            {
+       Scanner sc = new Scanner(System.in);
+       int x = sc.nextInt();
+       int temp =0;
+       while(x!=0)
+       {
+           for(int i=0; i<rtn.length-1; i++)
+           {
+                temp = rtn[i];
+                rtn[i]=rtn[i+1];
+                rtn[i+1]=temp;
 
-                if(slr[j]>slr[j+1])
-                {
-                 int temp= slr[j];
-                 slr[j]=slr[j+1];
-                 slr[j+1]=temp;
-                }
             }
-        }
+
+            --x;
+           }
+       }
+       
     
-         secLargest = slr[x-2];
-         
-          System.out.println(secLargest);
-         
-    }
-    public static void main(String []args)
+    public static void main (String []args)
     {
-        int slr []={1,4,113,95,5};
-        secondLargest(slr);
-     
+        int []rtn = {1,2,3,4,5,6,7};
+        rotation(rtn);
+         
+        for (int i=0; i<rtn.length;i++)
+        {
+            System.out.print(rtn[i]);
+        }
     }
 }
-
