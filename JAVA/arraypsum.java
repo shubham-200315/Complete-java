@@ -29,6 +29,7 @@ public class arraypsum
 {
     int prs[] = {1, 3, 6, 2, 5, 4, 3, 2, 4};
      psum(prs);
+//         calling
 
 
 
