@@ -52,5 +52,6 @@ public static void main(String[]args)
         System.out.println(mrg[i]);
       }
       System.out.println();
+//     printing
     }
 }
