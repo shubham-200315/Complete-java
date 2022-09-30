@@ -28,5 +28,6 @@ public class arraybinary {
         int[]input = { 1,2,3,4,5,6};
         int index= binarysearch(input , 5);
         System.out.println(index);
+//         printing
     }
 }
