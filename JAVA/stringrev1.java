@@ -16,6 +16,7 @@ public class stringrev1 {
     {
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine();
-        stringReverse(str);
+        stringReverse(str); 
+//         function calling 
     }
 }
