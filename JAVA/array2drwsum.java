@@ -6,6 +6,7 @@ public class array2drwsum {
     Scanner sc = new Scanner (System.in);
       int a = sc.nextInt();
       int b = sc.nextInt();
+//      initializing 2D array
       int arr[][]= new  int[a][b];
       for(int i=0; i<a;i++)
       {
