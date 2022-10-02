@@ -31,6 +31,7 @@ public static void main(String[]args)
 {
   int srt [] = takeinput();
   sort(srt);
+//     function calling
 
   for(int i=0; i<srt.length; i++)
   {
