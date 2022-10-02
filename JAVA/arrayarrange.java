@@ -10,7 +10,7 @@ public class arrayarrange {
        int filling=1;
        while(i<=j)
        {
-        // we have to put odd number at the starting so we have to see
+        // we have to an put odd number at the starting so we have to see
         // if the remainder is 1 
            if(filling%2==1)
            {
