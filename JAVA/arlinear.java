@@ -3,7 +3,7 @@ package Java.kkrecur;
 public class arlinear {
     public static void main(String []args)
     {
-        int arr[] = { 2,4,,8};
+        int arr[] = { 2,4,5,8};
         System.out.println(find(arr, 5, 0));
         System.out.println(findi(arr, 5, 0));
     }
