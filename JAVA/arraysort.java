@@ -1,6 +1,6 @@
 import java.util.*;
 public class arraysort {
-    public static int[] takeinpt()
+    public static int[] takeinput()
      {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
