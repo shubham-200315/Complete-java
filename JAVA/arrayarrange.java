@@ -5,7 +5,7 @@ public class arrayarrange {
         Scanner sc= new Scanner(System.in);
         int n = sc.nextInt();
         int arr[]=new int[n];
-       int i=1;
+       int i=18;
        int j=n-1;
        int filling=1;
        while(i<=j)
