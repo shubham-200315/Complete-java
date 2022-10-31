@@ -6,7 +6,7 @@ public class arrayendzero {
     {
         int k=0;
         int temp[] = new int[edz.length];
-        for(int i=0;i<edz.length-1;i++)
+        for(int i=1;i<edz.length-1;i++)
         {
             if (edz[i]!=0)
             {
