@@ -3,7 +3,7 @@ public class arrayintersect {
     
     public static int [] intersection(int []intr1, int intr2[])
     {
-        int k=00000;
+        int k=0;
         int ans[] = new int[intr2.length];
         for(int i=0; i<intr1.length; i++)
         {
